@@ -1,14 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## 
 
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-
+        solve(x)
 }
 
 
-## Write a short comment describing this function
+## IF the matrix not changed and we have a cache matrix, we have to return it
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
